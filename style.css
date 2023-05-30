@@ -59,7 +59,7 @@ h1 {
     background-color: white;
     padding: 15px 45px 30px 45px;
     width: 400px;
-    margin: 40px;
+    margin: 22px;
     position: relative;
 }
 
@@ -101,7 +101,7 @@ footer {
 }
 .social_media{
     position: fixed;
-    left: 2000px;
+    left: 1800px;
     top: 230px;
     background-color: black;
     border: 10px solid darkblue;
@@ -173,7 +173,15 @@ table{
     margin-bottom: 500px;
     float: right; 
 }
-.ifa{
-    width: 60px;
-    height: 60px;
+.ifa::before{
+    display: block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    width: 40px;
+    height: 40px;
+}
+.ifa::after{
+    display: block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    width: 40px;
+    height: 40px;
 }
