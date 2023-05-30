@@ -173,15 +173,4 @@ table{
     margin-bottom: 500px;
     float: right; 
 }
-.ifa::before{
-    display: block;
-    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
-    width: 40px;
-    height: 40px;
-}
-.ifa::after{
-    display: block;
-    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
-    width: 40px;
-    height: 40px;
-}
+
